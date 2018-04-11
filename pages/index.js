@@ -4,6 +4,9 @@ import Head from '../src/components/head'
 import { Rate } from 'antd'
 
 export default class extends React.Component {
+  constructor() {
+    super()
+  }
   render () {
     return (
       <div>
